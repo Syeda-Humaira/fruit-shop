@@ -1,0 +1,184 @@
+body {
+    margin: 0em;
+}
+header {
+    background-image: linear-gradient(#404549, #61697e, #3d4244);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+h1 {
+    display: inline;
+    font-size: 40px;
+}
+
+
+#wallet {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+#wallet input[type='number'] {
+    
+        font-size: 34px;
+        text-align: center;
+}
+#total-money {
+    border: 2px solid #e8e6e6;
+    border-radius: 100px;
+    font-size: 2px;
+    padding: 10px 0px;
+    height: 30px;
+    width: 110px;
+}
+#total {
+    background-color: #efe2cc;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0em;
+    padding: 5em 4em;
+}
+#total input{
+    background-color: #f0e3cd;
+    border: 1px solid #f0e3cd;
+    border: 1px solid #e8e6e6;
+    padding: 10px 0px;
+    width: 86px;
+}    
+#total input[type='number']{
+    color: #ed462f;
+    font-size: 70px;
+}    
+span {
+    color: red;
+}
+/* h3 {
+    color: #ed4730;
+    display: inline;
+    font-size: 3em;
+    margin: inherit;
+    border-left-width: 19px;
+} */
+
+
+
+/* ye mene kia he */
+
+#fruits-section{
+    background-image: linear-gradient(#3b4042, #60687c, #3c4244);
+    padding: 4em;
+}
+
+#img-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 30px 0px;
+}
+
+figure {
+    background-color: white;
+    width: 250px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: 170px;
+}
+
+.orange-div, .banana-div, .apple-div {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 0px;
+ } 
+
+.apple-div h2 {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    background-color: #346e34;
+    color: white;
+    padding: 10px;
+} 
+.orange-div h2 {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    background-color: #346e34;
+    color: white;
+    padding: 10px;
+}
+.banana-div h2 {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    background-color: #346e34;
+    color: white;
+    padding: 10px;
+}
+#buttons {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+#addBtn {
+    padding: 8px;
+    border: 1px solid black;
+    border-right-style: none;
+    border-radius: 12px 0px 0px 12px;
+    background-color: #3b4042;
+    color: white;
+}
+
+/* #buttons>button {
+    max-width: 100%;
+    
+    border: none;
+    
+    padding: 10px;
+    
+
+} */
+#minusBtn {
+    border: 1px solid black;
+    padding: 8px;
+    border-left-style: none;
+    border-radius: 0px 12px 12px 0px;
+    background-color: #3b4042;
+    color: white;
+}
+
+#buttons>input {
+    max-width: 9vh;
+    border: 1px solid;
+    border-right-style: none;
+    border-left-style: none;
+    padding: 7px 0px;
+    text-align: center;
+    background-image: linear-gradient(#c8c7c7,#fdfdfd);
+}
+
+@media only screen and (max-width: 860px){
+    fruits-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .orange-div{
+        margin: 20px 0px 0px 0px;
+    }
+    .banana-div{
+        margin: 20px 0px 0px 0px;
+    }
+}

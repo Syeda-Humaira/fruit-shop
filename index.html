@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fruit Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fruit Shop</h1>
+    </header>
+    <section id="wallet">
+        <h1>I have Rs.</h1>
+        <input id="total-money" type="number" value="0" min="0" onclick="values()">
+    </section>
+    <section id="total">
+        <h1>Your total is Rs. <span id="total-bill"></span></h1>
+        
+
+    </section>
+
+    <section id="fruits-section">
+
+        <div id="img-div">
+
+            <div class="apple-div">
+
+                <h2>Rs.10</h2>
+                <figure>
+                    <img src="apple.png" alt="apple">
+                    <figcaption>Apple</figcaption>
+                </figure>
+
+                <div id="buttons">
+                    
+
+                    <button id="addBtn" onclick="addApple()" >+</button>
+                   
+                    <input id="totalApples" type="number" value="0" min="0"/>
+                   
+                    <button id="minusBtn" onclick="minusApple()">-</button>
+                </div>
+
+            </div>
+
+            <div class="orange-div">
+
+                <h2>Rs.15</h2>
+                <figure>
+                    <img src="orange.jpg" alt="orange">
+                    <figcaption>Orange</figcaption>
+                </figure>
+
+                <div id="buttons">
+                    <button id="addBtn" onclick="addOrange()" >+</button>
+                   
+                    <input id="totalOranges" type="number" value="0" min="0"/>
+                   
+                    <button id="minusBtn" onclick="minusOrange()">-</button>
+
+                </div>
+
+            </div>
+
+            <div class="banana-div">
+
+                <h2 class="banana-price">Rs.7</h2>
+                <figure>
+                    <img src="banana.jpg" alt="banana">
+                    <figcaption>Banana</figcaption>
+                </figure>
+
+                <div id="buttons">
+                    <button id="addBtn" onclick="addBanana()" >+</button>
+                   
+                    <input id="totalBananas" type="number" value="0" min="0" />
+                   
+                    <button id="minusBtn" onclick="minusBanana()">-</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
