@@ -1,16 +1,20 @@
 body {
     margin: 0em;
+    padding: 0px;
+    text-align: center;
 }
 header {
     background-image: linear-gradient(#404549, #61697e, #3d4244);
     color: #ffffff;
     display: flex;
+    align-items: center; 
     justify-content: center;
-    padding: 1em;
+    padding: 20px ;
 }
 h1 {
-    display: inline;
-    font-size: 40px;
+    /* display: inline; */
+    font-size: 20px;
+    margin: 10px;
 }
 
 
@@ -41,7 +45,8 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0em;
-    padding: 5em 4em;
+    padding: 3em 1em;
+    margin-top: -20px;
 }
 #total input{
     background-color: #f0e3cd;
@@ -49,29 +54,15 @@ h1 {
     border: 1px solid #e8e6e6;
     padding: 10px 0px;
     width: 86px;
-}    
-#total input[type='number']{
     color: #ed462f;
-    font-size: 70px;
+    font-size: 50px;
 }    
-span {
-    color: red;
-}
-/* h3 {
-    color: #ed4730;
-    display: inline;
-    font-size: 3em;
-    margin: inherit;
-    border-left-width: 19px;
-} */
 
 
-
-/* ye mene kia he */
 
 #fruits-section{
     background-image: linear-gradient(#3b4042, #60687c, #3c4244);
-    padding: 4em;
+    padding: 15px 30px
 }
 
 #img-div {
@@ -79,7 +70,8 @@ span {
     justify-content: space-evenly;
     align-content: flex-start;
     align-items: flex-start;
-    margin: 30px 0px;
+    /* margin: 30px 0px; */
+    border-radius: 6px;
 }
 
 figure {
@@ -94,39 +86,47 @@ img {
 }
 
 .orange-div, .banana-div, .apple-div {
-    background-color: #f3f3f3;
+    background-color: white;
     display: flex;
     flex-direction: column; 
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin: 30px 0px;
-    padding: 0px;
+    margin: 10px 10px ;
+    padding-bottom: 10px ;
+    max-width: 250px;
+    border-radius: 6px
  } 
 
 .apple-div h2 {
     text-align: center;
     width: 100%;
-    margin: 10px 0px 0px 0px;
+    margin: -1px 0px 6px 0px;
     background-color: #346e34;
     color: white;
-    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 2px;
 } 
 .orange-div h2 {
     text-align: center;
     width: 100%;
-    margin: 10px 0px 0px 0px;
+    margin: -1px 0px 6px 0px;
     background-color: #346e34;
     color: white;
-    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 2px;
 }
 .banana-div h2 {
     text-align: center;
     width: 100%;
-    margin: 10px 0px 0px 0px;
+    margin: -1px 0px 6px 0px;
     background-color: #346e34;
     color: white;
-    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 2px;
 }
 #buttons {
     border-radius: 20px;
@@ -135,24 +135,17 @@ img {
 }
 #addBtn {
     padding: 8px;
-    border: 1px solid black;
+    border: 1px solid #3a3f40;
     border-right-style: none;
     border-radius: 12px 0px 0px 12px;
     background-color: #3b4042;
     color: white;
+    
+    
 }
 
-/* #buttons>button {
-    max-width: 100%;
-    
-    border: none;
-    
-    padding: 10px;
-    
-
-} */
 #minusBtn {
-    border: 1px solid black;
+    border: 1px solid #3a3f40;
     padding: 8px;
     border-left-style: none;
     border-radius: 0px 12px 12px 0px;
@@ -168,17 +161,4 @@ img {
     padding: 7px 0px;
     text-align: center;
     background-image: linear-gradient(#c8c7c7,#fdfdfd);
-}
-
-@media only screen and (max-width: 860px){
-    fruits-section{
-        flex-direction: column;
-        align-items: center;
-    }
-    .orange-div{
-        margin: 20px 0px 0px 0px;
-    }
-    .banana-div{
-        margin: 20px 0px 0px 0px;
-    }
 }
